@@ -27,68 +27,6 @@ div.ex1 {
     margin:auto;
 }
 
-.scrollable-element {
-    scrollbar-color: dark;
-}
-
-#progress {
-    width:500px;
-    border:1px solid black;
-    position: relative;
-    padding: 3px;
-}
-
-#percent {
-    position: absolute;
-    left:45%;
-}
-
-#bar {
-    height: 20px;
-    background-color: #9CF;
-    width:45%;
-}
-
-#caption{
-    height:50px;
-    width:960px;
-    margin-top:20px;
-    }
-    
-#caption h1{
-    font-family: 'Raleway', sans-serif;
-    color: #eeeeee;
-    text-align: center;
-    padding-top: 10px;
-    }    
-    
-.col{
-    height:250px;
-    width:200px;
-    margin:20px 0 20px 90px;
-    float:left;
-    margin-left:100px;
-    }
-    
-.col h2{
-    font-family: 'Raleway', sans-serif;
-    color: #CCCCCC;
-    background-color: #29343B;
-    text-align: center;
-    }
-    
-.col p{
-    font-family:'Raleway', sans-serif;
-    color:#eeeeee;
-    padding:10px 0 0 5px;
-    }
-    
-.col img{
-    padding-top:10px;}    
-    
-.col h6{
-    text-align:center;}    
-
 .center {
     display: block;
     margin-left: auto;
@@ -116,7 +54,7 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #0B1834;
   }
 
   img.nichole {
@@ -143,52 +81,26 @@ ul {
   ::-webkit-scrollbar-thumb:hover {
     background: #0b2b4f; 
   }
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .container {
-    padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
+
+  .collapsible {
+    background-color: #030C1F;
     color: white;
-    background-color: #000;
-    text-align: center;
     cursor: pointer;
+    padding: 18px;
     width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
   }
   
-  .button:hover {
+  .active, .collapsible:hover {
     background-color: #555;
   }
-
   
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #0B1834;
+  }
