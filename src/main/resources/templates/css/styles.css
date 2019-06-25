@@ -92,15 +92,17 @@ ul {
     text-align: left;
     outline: none;
     font-size: 15px;
+    font: 'Raleway', sans-serif;
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #0b1834;
   }
   
   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
+    font: 'Raleway', sans-serif;
     background-color: #0B1834;
   }
